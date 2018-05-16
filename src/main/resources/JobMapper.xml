@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eagle.jobcrawler.JobMapper">
+    <select id="selectJob" resultType="com.eagle.jobcrawler.model.Job">
+      select * from Job
+    </select>
+    <insert id="insertOne" parameterType="com.eagle.jobcrawler.model.Job">
+        insert into Job(job_id, job_name, detail_url_path, city, work_experience, degree, treatment, detail, company, source)
+        values (#{jobId}, #{jobName}, #{detailUrlPath}, #{city}, #{workExperience}, #{degree}, #{treatment}, #{detail}, #{company}, #{source})
+    </insert>
+    <insert id="insertJobBatch" parameterType="java.util.List">
+        insert into Job(job_id, job_name, detail_url_path, city, work_experience, degree, treatment, detail, company, source)
+        values
+        <foreach collection="jobList" item="item" separator=",">
+            (#{item.jobId}, #{item.jobName}, #{item.detailUrlPath}, #{item.city}, #{item.workExperience}, #{item.degree}, #{item.treatment}, #{item.detail}, #{item.company}, #{item.source})
+        </foreach>
+    </insert>
+    <select id="selectJobIdList" parameterType="java.util.List" resultType="String">
+        select job_id from Job
+        where job_id in
+        <foreach collection="jobIdList" item="jobId" separator="," open="(" close=")">
+            #{jobId}
+        </foreach>
+    </select>
+</mapper>

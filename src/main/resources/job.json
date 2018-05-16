@@ -1,0 +1,133 @@
+[
+  {
+    "city": "BossZhipin",
+    "data": [
+      //    后端开发
+      {
+        "key": "Java",
+        "value": "p100101"
+      },
+      {
+        "key": "C++",
+        "value": "p100102"
+      },
+      {
+        "key": "PHP",
+        "value": "p100103"
+      },
+      {
+        "key": "数据挖掘",
+        "value": "p100104"
+      },
+      {
+        "key": "C",
+        "value": "p100105"
+      },
+      {
+        "key": "C#",
+        "value": "p100106"
+      },
+      {
+        "key": ".Net",
+        "value": "p100107"
+      },
+      {
+        "key": "Hadoop",
+        "value": "p100108"
+      },
+      {
+        "key": "Python",
+        "value": "p100109"
+      },
+      {
+        "key": "Delphi",
+        "value": "p100110"
+      },
+      {
+        "key": "VB",
+        "value": "p100111"
+      },
+      {
+        "key": "Perl",
+        "value": "p100112"
+      },
+      {
+        "key": "Ruby",
+        "value": "p100113"
+      },
+      {
+        "key": "Node.js",
+        "value": "p100114"
+      },
+      {
+        "key": "搜索算法",
+        "value": "p100115"
+      },
+      {
+        "key": "GoLang",
+        "value": "p100116"
+      },
+      {
+        "key": "自然语言处理",
+        "value": "p100117"
+      },
+      {
+        "key": "推荐算法",
+        "value": "p100118"
+      },
+      {
+        "key": "Erlang",
+        "value": "p100119"
+      },
+      {
+        "key": "算法工程师",
+        "value": "p100120"
+      },
+      {
+        "key": "语音/视频/图形开发",
+        "value": "p100121"
+      },
+      {
+        "key": "数据采集",
+        "value": "p100122"
+      },
+      //    移动开发、前端开发
+      {
+        "key": "HTML5",
+        "value": "p100201 p100904"
+      },
+      {
+        "key": "Android",
+        "value": "p100202"
+      },
+      {
+        "key": "iOS",
+        "value": "p100203"
+      },
+      {
+        "key": "WP",
+        "value": "p100204"
+      },
+      {
+        "key": "Web前端",
+        "value": "p100205 p100901"
+      },
+      {
+        "key": "Flash",
+        "value": "p100206 p100903"
+      },
+      {
+        "key": "JavaScript",
+        "value": "p100208 p100902"
+      },
+      {
+        "key": "U3D",
+        "value": "p100209"
+      },
+      {
+        "key": "COCOS2DX",
+        "value": "p100210"
+      }
+    ]
+  }
+]
